@@ -1,0 +1,24 @@
+{
+  "listen": "127.0.0.1:7863",
+  "api_key": "replace-with-your-local-api-key",
+  "auth_dir": "./auths",
+  "state_file": "./data/state.json",
+  "server": {
+    "max_body_mb": 8
+  },
+  "global": {
+    "enabled": true
+  },
+  "schedule": {
+    "checkin_enabled": false,
+    "travel_enabled": false,
+    "activity_enabled": false,
+    "keepalive_enabled": false,
+    "school_enabled": false,
+    "cat_enabled": false
+  },
+  "pool": {
+    "max_in_flight": 3,
+    "prefer_uids": []
+  }
+}

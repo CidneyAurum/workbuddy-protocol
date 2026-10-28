@@ -1,0 +1,32 @@
+# Local runtime and credentials
+/config*.json
+!/config.example.json
+/auths/
+/removed-auths/
+/data/
+/logs/
+/state*.json
+/models.json
+.env
+.env.*
+*.pem
+*.key
+
+# Build and test outputs
+/bin/
+/dist/
+/build/
+*.exe
+*.dll
+*.test
+*.out
+coverage*
+*.log
+*.tmp
+
+# Editor and OS files
+.idea/
+.vscode/
+__pycache__/
+.DS_Store
+Thumbs.db

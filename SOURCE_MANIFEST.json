@@ -1,0 +1,1243 @@
+{
+  "captured_at_utc": "2026-10-28T02:00:21.061321+00:00",
+  "source_snapshot": "Current local WorkBuddy Go source, not a newly fetched upstream release",
+  "production_files_modified": false,
+  "runtime_files_included": false,
+  "files": [
+    {
+      "source": "services/workbuddy/src/cmd/activity/main.go",
+      "path": "cmd/activity/main.go",
+      "source_sha256": "779cbf02aa2ed8a52df303db6025cc062ee7ade6a6e3af033cc5bc4d9e95b4ec",
+      "export_sha256": "779cbf02aa2ed8a52df303db6025cc062ee7ade6a6e3af033cc5bc4d9e95b4ec",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/activity/main_test.go",
+      "path": "cmd/activity/main_test.go",
+      "source_sha256": "dd5af32e48569c3fb04085acc7d2275edb90128d305a2de3117cf12ff8dcd03f",
+      "export_sha256": "dd5af32e48569c3fb04085acc7d2275edb90128d305a2de3117cf12ff8dcd03f",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/catalog/main.go",
+      "path": "cmd/catalog/main.go",
+      "source_sha256": "15be88503a7ecc39bedf8f07fbfad0ce96202542e44b727138aca87811da2dbf",
+      "export_sha256": "15be88503a7ecc39bedf8f07fbfad0ce96202542e44b727138aca87811da2dbf",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/claim/main.go",
+      "path": "cmd/claim/main.go",
+      "source_sha256": "9fbaf3fbba0a05878ddce6f0a0107e42eea57cf5cf2d08294dd80b540cf83269",
+      "export_sha256": "9fbaf3fbba0a05878ddce6f0a0107e42eea57cf5cf2d08294dd80b540cf83269",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/credit/main.go",
+      "path": "cmd/credit/main.go",
+      "source_sha256": "220d68ca0ba79ede1522786e8098f68ece93c2c366e1720e9290d5e1fa82cca7",
+      "export_sha256": "220d68ca0ba79ede1522786e8098f68ece93c2c366e1720e9290d5e1fa82cca7",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/credit/main_test.go",
+      "path": "cmd/credit/main_test.go",
+      "source_sha256": "4e1cc7b59bfe7bee8ec83f9cf1a9eba76a4b8d5d034c7511491c738985232ab1",
+      "export_sha256": "4e1cc7b59bfe7bee8ec83f9cf1a9eba76a4b8d5d034c7511491c738985232ab1",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/login/dojson_read_error_test.go",
+      "path": "cmd/login/dojson_read_error_test.go",
+      "source_sha256": "2ea10cd0d5025d3fc9791b890d24302527585a4930e18634c8c0db58b43f502e",
+      "export_sha256": "2ea10cd0d5025d3fc9791b890d24302527585a4930e18634c8c0db58b43f502e",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/login/endpoint_test.go",
+      "path": "cmd/login/endpoint_test.go",
+      "source_sha256": "0ccefb5b1df5ad510d51e7db9cb08fa97e0cae8966c09ec23fd600087cb99530",
+      "export_sha256": "0ccefb5b1df5ad510d51e7db9cb08fa97e0cae8966c09ec23fd600087cb99530",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/login/flow_test.go",
+      "path": "cmd/login/flow_test.go",
+      "source_sha256": "fd03ebf4f542bd5b03b9ac60a5a38bbbb451a21a8122738cc67d1298dee0b1cd",
+      "export_sha256": "fd03ebf4f542bd5b03b9ac60a5a38bbbb451a21a8122738cc67d1298dee0b1cd",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/login/legacy_flow.go",
+      "path": "cmd/login/legacy_flow.go",
+      "source_sha256": "34f9ff8cba2cd3ccf900a61d22fcc2dfba02f8025987928cd6fd5052d5ee3fee",
+      "export_sha256": "34f9ff8cba2cd3ccf900a61d22fcc2dfba02f8025987928cd6fd5052d5ee3fee",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/login/main.go",
+      "path": "cmd/login/main.go",
+      "source_sha256": "86fac5385024571728c3599b39f99f18512d101e80a40057d82a591fb64ebfda",
+      "export_sha256": "86fac5385024571728c3599b39f99f18512d101e80a40057d82a591fb64ebfda",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/login/realm_test.go",
+      "path": "cmd/login/realm_test.go",
+      "source_sha256": "d655c5b58960d9452806b570ca360e32843b9de3fcf956a879fab138da365d5b",
+      "export_sha256": "d655c5b58960d9452806b570ca360e32843b9de3fcf956a879fab138da365d5b",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/login/site_domain_test.go",
+      "path": "cmd/login/site_domain_test.go",
+      "source_sha256": "6071eb642cc1815fc4f8ddd0334892a235c6af768554cdb29fb7315ca4ca3190",
+      "export_sha256": "6071eb642cc1815fc4f8ddd0334892a235c6af768554cdb29fb7315ca4ca3190",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/refresh/main.go",
+      "path": "cmd/refresh/main.go",
+      "source_sha256": "7a9143c5c7832b34e9c23bf01ba21110fc2b769cc46ef2b8157d195d39ea8fb2",
+      "export_sha256": "7a9143c5c7832b34e9c23bf01ba21110fc2b769cc46ef2b8157d195d39ea8fb2",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/server/config.go",
+      "path": "cmd/server/config.go",
+      "source_sha256": "809c08c8752bc0e703c8efd84370338334d465d26053a5cb62fdaeef266f84cd",
+      "export_sha256": "809c08c8752bc0e703c8efd84370338334d465d26053a5cb62fdaeef266f84cd",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/server/config_test.go",
+      "path": "cmd/server/config_test.go",
+      "source_sha256": "1b31e9a0d9ae42b1eccd483a65baad39ede093f505a92910038df9f04cf0aa6d",
+      "export_sha256": "1b31e9a0d9ae42b1eccd483a65baad39ede093f505a92910038df9f04cf0aa6d",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/server/global_config_test.go",
+      "path": "cmd/server/global_config_test.go",
+      "source_sha256": "de00a0684b5f7334d917fe58cca3fd1a13c35f5636f95099b9897cd0a55a2ade",
+      "export_sha256": "de00a0684b5f7334d917fe58cca3fd1a13c35f5636f95099b9897cd0a55a2ade",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/server/main.go",
+      "path": "cmd/server/main.go",
+      "source_sha256": "fd8020a26e41f9b583eb2c7caabd37ea93d4ddb90980eeea49172d96a68e6705",
+      "export_sha256": "fd8020a26e41f9b583eb2c7caabd37ea93d4ddb90980eeea49172d96a68e6705",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/server/prefer_config_test.go",
+      "path": "cmd/server/prefer_config_test.go",
+      "source_sha256": "c77046ddce9f4fd02b459ac043161605c02513281ed18f62ad01e39796e29c1e",
+      "export_sha256": "c77046ddce9f4fd02b459ac043161605c02513281ed18f62ad01e39796e29c1e",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/server/wiring.go",
+      "path": "cmd/server/wiring.go",
+      "source_sha256": "0480d08dd656c998073eb738f77e473302acfd73336a2e0ce36f9a49f577d0cc",
+      "export_sha256": "0480d08dd656c998073eb738f77e473302acfd73336a2e0ce36f9a49f577d0cc",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/server/wiring_test.go",
+      "path": "cmd/server/wiring_test.go",
+      "source_sha256": "6d796b5eabd74f5c30994de41e94d6e085513dfaaec8573c45698fe23cc47567",
+      "export_sha256": "6d796b5eabd74f5c30994de41e94d6e085513dfaaec8573c45698fe23cc47567",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/signin/main.go",
+      "path": "cmd/signin/main.go",
+      "source_sha256": "c9f34419aa4b7623182a46bae6b137e90105a21950ec54a0035d6c6b5e2a4bb1",
+      "export_sha256": "c9f34419aa4b7623182a46bae6b137e90105a21950ec54a0035d6c6b5e2a4bb1",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/signin/main_test.go",
+      "path": "cmd/signin/main_test.go",
+      "source_sha256": "47ede750262d6f2fd79e5e5d17bf4b7c3d300711338232b0f11873e0c088eb74",
+      "export_sha256": "47ede750262d6f2fd79e5e5d17bf4b7c3d300711338232b0f11873e0c088eb74",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/trial/main.go",
+      "path": "cmd/trial/main.go",
+      "source_sha256": "656078763b11309fee88437055da04c40fc634bbfee424459b1d17174743990b",
+      "export_sha256": "656078763b11309fee88437055da04c40fc634bbfee424459b1d17174743990b",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/cmd/trial/main_test.go",
+      "path": "cmd/trial/main_test.go",
+      "source_sha256": "17b42d61860ecf1a732768e0754b20f005aa5a978fbe4fde0fc21061953f90bc",
+      "export_sha256": "17b42d61860ecf1a732768e0754b20f005aa5a978fbe4fde0fc21061953f90bc",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/README.md",
+      "path": "docs/UPSTREAM_README.md",
+      "source_sha256": "d60a80e995523f7dba9128aa99ba7578e9fe016ea913819284e8a1169b896653",
+      "export_sha256": "e542fb4a97be0339d10207e19afbc71848373974684b76ccb938e1d73ac87a86",
+      "adjustment": "API key examples that overlap local runtime values use a distinct public placeholder; attribution and legal notices preserved"
+    },
+    {
+      "source": "services/workbuddy/src/go.mod",
+      "path": "go.mod",
+      "source_sha256": "253b3071408fc1e8bef01c641f56bfb4b14d1d5158fd8131d73834a09b17ecf4",
+      "export_sha256": "aa9ec6acccb11b064bd82f29223afc0697d1c5a58e8e6c2383621a9835bb34c9",
+      "adjustment": "External local module path changed to ./lib/anthropiccompat"
+    },
+    {
+      "source": "services/workbuddy/src/go.sum",
+      "path": "go.sum",
+      "source_sha256": "0f6756bcfe33cffa0e3a77f543ab71ee0a0437b493a327178cf1305407346f11",
+      "export_sha256": "0f6756bcfe33cffa0e3a77f543ab71ee0a0437b493a327178cf1305407346f11",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/auth/auth.go",
+      "path": "internal/auth/auth.go",
+      "source_sha256": "78c4c64a60560774c6d015c1b21a45e4e5a491bb9e9f6afc0fc059d8a0f37928",
+      "export_sha256": "78c4c64a60560774c6d015c1b21a45e4e5a491bb9e9f6afc0fc059d8a0f37928",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/auth/auth_test.go",
+      "path": "internal/auth/auth_test.go",
+      "source_sha256": "906c07627e02493e1fe6841025436bb20be65131fb26e140de51cdf59165525b",
+      "export_sha256": "906c07627e02493e1fe6841025436bb20be65131fb26e140de51cdf59165525b",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/auth/expires_test.go",
+      "path": "internal/auth/expires_test.go",
+      "source_sha256": "e048a3fde1bee231fb72c6c51fc7f83b1357cb1994b1d41098cc25cdd5e43112",
+      "export_sha256": "6330262872af2bde9454feda48bb8ff67076774414c6494ccd40fc985a87d516",
+      "adjustment": "Synthetic account uid/nickname/uin in fixture; expiry and assertions preserved"
+    },
+    {
+      "source": "services/workbuddy/src/internal/auth/realm_test.go",
+      "path": "internal/auth/realm_test.go",
+      "source_sha256": "7c9d12f85970213212020cb01beed0984353da4507f5b680d66dca1cf044cd8f",
+      "export_sha256": "7c9d12f85970213212020cb01beed0984353da4507f5b680d66dca1cf044cd8f",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/authsel/authsel.go",
+      "path": "internal/authsel/authsel.go",
+      "source_sha256": "ce869284d786cf8aefe1634c0af17b9656fe86faf376fe0b190e5d176c9f6665",
+      "export_sha256": "ce869284d786cf8aefe1634c0af17b9656fe86faf376fe0b190e5d176c9f6665",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/authsel/authsel_test.go",
+      "path": "internal/authsel/authsel_test.go",
+      "source_sha256": "0b8cfa958b014e456da55b768b40fd9b3e999af916df28924ca873235c0cd0ac",
+      "export_sha256": "bee4e4db7893c28ac3a660a366a073185eab7cad3ac491769ee964af90199ee5",
+      "adjustment": "Synthetic UUID filename in selector fixture; selector semantics preserved"
+    },
+    {
+      "source": "services/workbuddy/src/internal/config/schedule.go",
+      "path": "internal/config/schedule.go",
+      "source_sha256": "cf3f2af00968644534fbb5a0f6e13e961ca728d86bee64f27cbb984cd5ac6724",
+      "export_sha256": "cf3f2af00968644534fbb5a0f6e13e961ca728d86bee64f27cbb984cd5ac6724",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/config/schedule_test.go",
+      "path": "internal/config/schedule_test.go",
+      "source_sha256": "996f243205db9a27e4f83b346fd0070a7453466722a12679b2e584276531ef6f",
+      "export_sha256": "996f243205db9a27e4f83b346fd0070a7453466722a12679b2e584276531ef6f",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/logfmt/logfmt.go",
+      "path": "internal/logfmt/logfmt.go",
+      "source_sha256": "5a5f0e4abecb0ac70356c5ce6d31fa760458ef9f23193bc1e26d4c195da0e70f",
+      "export_sha256": "5a5f0e4abecb0ac70356c5ce6d31fa760458ef9f23193bc1e26d4c195da0e70f",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/logfmt/logfmt_test.go",
+      "path": "internal/logfmt/logfmt_test.go",
+      "source_sha256": "de8f9e7a0303bcc939c6109172bc5ac77553680ecf3a866296ca59f4a15bf0e0",
+      "export_sha256": "de8f9e7a0303bcc939c6109172bc5ac77553680ecf3a866296ca59f4a15bf0e0",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/logfmt/truncate_test.go",
+      "path": "internal/logfmt/truncate_test.go",
+      "source_sha256": "42948edfaddaa1ddf8a812bc83d56e42aae7cdf34df60335ff73199a498d17df",
+      "export_sha256": "42948edfaddaa1ddf8a812bc83d56e42aae7cdf34df60335ff73199a498d17df",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/loginsite/loginsite.go",
+      "path": "internal/loginsite/loginsite.go",
+      "source_sha256": "c77dee390151dd98fb9630d2013302d2f89831455233d291408f5b53d737dd9c",
+      "export_sha256": "c77dee390151dd98fb9630d2013302d2f89831455233d291408f5b53d737dd9c",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/loginsite/loginsite_test.go",
+      "path": "internal/loginsite/loginsite_test.go",
+      "source_sha256": "4c6dbf56d97ea38435bc4ec6de3f84c60515e23db4bf5da5780dd289bd8fe8c1",
+      "export_sha256": "4c6dbf56d97ea38435bc4ec6de3f84c60515e23db4bf5da5780dd289bd8fe8c1",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/bench_test.go",
+      "path": "internal/pool/bench_test.go",
+      "source_sha256": "a82ef82e98752635298d640bac5c1b1b86464ce78101f09d73d3ca2ab8b27aec",
+      "export_sha256": "a82ef82e98752635298d640bac5c1b1b86464ce78101f09d73d3ca2ab8b27aec",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/close_test.go",
+      "path": "internal/pool/close_test.go",
+      "source_sha256": "d9605e37b090d63d62832d2159353f21dba91098f8bf158dc2f3782a6e17dc37",
+      "export_sha256": "d9605e37b090d63d62832d2159353f21dba91098f8bf158dc2f3782a6e17dc37",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/cooldown.go",
+      "path": "internal/pool/cooldown.go",
+      "source_sha256": "1c46c62790b0dc6f3fd54cb0bde66ed7a0bace76e66fd1000e8d8ce94b185e98",
+      "export_sha256": "1c46c62790b0dc6f3fd54cb0bde66ed7a0bace76e66fd1000e8d8ce94b185e98",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/coolremaining_test.go",
+      "path": "internal/pool/coolremaining_test.go",
+      "source_sha256": "c6e3f9e95985df2db56a7c04f6d4d1bc16d49dbae48cd6099ff3f091d2e99c70",
+      "export_sha256": "c6e3f9e95985df2db56a7c04f6d4d1bc16d49dbae48cd6099ff3f091d2e99c70",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/cost_test.go",
+      "path": "internal/pool/cost_test.go",
+      "source_sha256": "20ecf01c5fd4667b0d8bd1af819f1853544e4501e4ecee6f3c690404fabf8402",
+      "export_sha256": "20ecf01c5fd4667b0d8bd1af819f1853544e4501e4ecee6f3c690404fabf8402",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/counts_realm_test.go",
+      "path": "internal/pool/counts_realm_test.go",
+      "source_sha256": "cf5940d9809630664c7f83c3a5d5ab8dd02c81380b81f0e8bb424c2672b83ce6",
+      "export_sha256": "cf5940d9809630664c7f83c3a5d5ab8dd02c81380b81f0e8bb424c2672b83ce6",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/entry.go",
+      "path": "internal/pool/entry.go",
+      "source_sha256": "74edb4679a5af3be5de3239b07e353c90bf92a1b3cf0bed21589f13b5b2594cb",
+      "export_sha256": "74edb4679a5af3be5de3239b07e353c90bf92a1b3cf0bed21589f13b5b2594cb",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/expiring_test.go",
+      "path": "internal/pool/expiring_test.go",
+      "source_sha256": "e2c6f2eeedf1cdb642b9f3c55fafff4baba5188dae8f677f3c8291cbd653afd0",
+      "export_sha256": "e2c6f2eeedf1cdb642b9f3c55fafff4baba5188dae8f677f3c8291cbd653afd0",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/modelcooldown_test.go",
+      "path": "internal/pool/modelcooldown_test.go",
+      "source_sha256": "cd13587a42cb8ddfc8c228915774d473561a189648676660a05c7611c542ca88",
+      "export_sha256": "cd13587a42cb8ddfc8c228915774d473561a189648676660a05c7611c542ca88",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/p1p2p3_persist_test.go",
+      "path": "internal/pool/p1p2p3_persist_test.go",
+      "source_sha256": "435009940c1bb19da89a1ef36e77383d8ef0c109f606ae9d30f4433f553b3aa1",
+      "export_sha256": "435009940c1bb19da89a1ef36e77383d8ef0c109f606ae9d30f4433f553b3aa1",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/persist.go",
+      "path": "internal/pool/persist.go",
+      "source_sha256": "4daee3aed08d3d34c9e54deb3840c0bd6406a06ba79f18d7f20fce267dbff14d",
+      "export_sha256": "4daee3aed08d3d34c9e54deb3840c0bd6406a06ba79f18d7f20fce267dbff14d",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/persist_other.go",
+      "path": "internal/pool/persist_other.go",
+      "source_sha256": "fb1bb84025448e220c9f32b90ad4304bc2ff0205186559838235c21501289e5a",
+      "export_sha256": "fb1bb84025448e220c9f32b90ad4304bc2ff0205186559838235c21501289e5a",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/persist_unix.go",
+      "path": "internal/pool/persist_unix.go",
+      "source_sha256": "5472596fd738f5a68b4df5ef17a5642537def6e59b320085a4041af4e936fef4",
+      "export_sha256": "5472596fd738f5a68b4df5ef17a5642537def6e59b320085a4041af4e936fef4",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/pick.go",
+      "path": "internal/pool/pick.go",
+      "source_sha256": "3c63426e197d30cddbd325d01cfefe5db7f4fb4c180e07cfcc6cd421c6425b77",
+      "export_sha256": "3c63426e197d30cddbd325d01cfefe5db7f4fb4c180e07cfcc6cd421c6425b77",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/pool.go",
+      "path": "internal/pool/pool.go",
+      "source_sha256": "d330c26d19e76367ed846328cec1006483771674e8eb6731484603dfe27b1968",
+      "export_sha256": "d330c26d19e76367ed846328cec1006483771674e8eb6731484603dfe27b1968",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/pool_test.go",
+      "path": "internal/pool/pool_test.go",
+      "source_sha256": "630c25c8976aff16ec1797745657a7a518673108e5a739c2d131c1799ac47bc4",
+      "export_sha256": "630c25c8976aff16ec1797745657a7a518673108e5a739c2d131c1799ac47bc4",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/prefer.go",
+      "path": "internal/pool/prefer.go",
+      "source_sha256": "02c607fd66ffb2928094dfde21adceb35b1fe9cf86a16dcaf0163d3441156157",
+      "export_sha256": "02c607fd66ffb2928094dfde21adceb35b1fe9cf86a16dcaf0163d3441156157",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/prefer_policy_test.go",
+      "path": "internal/pool/prefer_policy_test.go",
+      "source_sha256": "374f5c4b0ba9033b7a24f4af8d1db2d38af8c03ea5786e05dcd6f7465fde79b4",
+      "export_sha256": "374f5c4b0ba9033b7a24f4af8d1db2d38af8c03ea5786e05dcd6f7465fde79b4",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/prefer_test.go",
+      "path": "internal/pool/prefer_test.go",
+      "source_sha256": "d64b8d26938cfc01c650a0fc021b65c7233a863c9918cd3dbef836cf3d294261",
+      "export_sha256": "d64b8d26938cfc01c650a0fc021b65c7233a863c9918cd3dbef836cf3d294261",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/realm.go",
+      "path": "internal/pool/realm.go",
+      "source_sha256": "5b05840b9f4ea8608167bdb12ca0a8c01e12780335c646c2d5dee913cd155fbe",
+      "export_sha256": "5b05840b9f4ea8608167bdb12ca0a8c01e12780335c646c2d5dee913cd155fbe",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/realm_test.go",
+      "path": "internal/pool/realm_test.go",
+      "source_sha256": "f3570fe8ec298c5d7f563f08cd68b8b00a813725149a59b07d4e301dcfc37cfa",
+      "export_sha256": "f3570fe8ec298c5d7f563f08cd68b8b00a813725149a59b07d4e301dcfc37cfa",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/sessiondead_test.go",
+      "path": "internal/pool/sessiondead_test.go",
+      "source_sha256": "5f6f7388dc493b5ec08d651c6376a4c5840fabcb7f88116f06604625eb0cd5f3",
+      "export_sha256": "5f6f7388dc493b5ec08d651c6376a4c5840fabcb7f88116f06604625eb0cd5f3",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/state.go",
+      "path": "internal/pool/state.go",
+      "source_sha256": "a3e60b8ca2ba2843f7373090af90eb993892657fda0ebac922342abbfd95691e",
+      "export_sha256": "a3e60b8ca2ba2843f7373090af90eb993892657fda0ebac922342abbfd95691e",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/transition.go",
+      "path": "internal/pool/transition.go",
+      "source_sha256": "dfec66d555e352a4e776c960050b0d4fc24368e4d67c7ba6d3f6a6ec1440d45f",
+      "export_sha256": "dfec66d555e352a4e776c960050b0d4fc24368e4d67c7ba6d3f6a6ec1440d45f",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/transition_test.go",
+      "path": "internal/pool/transition_test.go",
+      "source_sha256": "65ad0f2ab50a0c15298a22162d60c7c3c461c0949d348c30d6e2827ae7ffc034",
+      "export_sha256": "65ad0f2ab50a0c15298a22162d60c7c3c461c0949d348c30d6e2827ae7ffc034",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/pool/weight_optimization_test.go",
+      "path": "internal/pool/weight_optimization_test.go",
+      "source_sha256": "69fbbe2d750bb24b23716459003bc2a301f266a91a973a54c5147f40958c4c43",
+      "export_sha256": "69fbbe2d750bb24b23716459003bc2a301f266a91a973a54c5147f40958c4c43",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/prompt/defaultprompt.md",
+      "path": "internal/prompt/defaultprompt.md",
+      "source_sha256": "384c2b10ada8c7bcf14772a72f563d7f77c3852f278a110283f568e2838d809c",
+      "export_sha256": "384c2b10ada8c7bcf14772a72f563d7f77c3852f278a110283f568e2838d809c",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/prompt/prompt.go",
+      "path": "internal/prompt/prompt.go",
+      "source_sha256": "e0c55a9e23b2edea1eb136fbbc6ec047f3fbb44c400442ae93091367c1bd6daa",
+      "export_sha256": "e0c55a9e23b2edea1eb136fbbc6ec047f3fbb44c400442ae93091367c1bd6daa",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/prompt/prompt_test.go",
+      "path": "internal/prompt/prompt_test.go",
+      "source_sha256": "6051a817119649cc923eeb16df5eafb0a720e64632c0bff4598d282986a5ab10",
+      "export_sha256": "6051a817119649cc923eeb16df5eafb0a720e64632c0bff4598d282986a5ab10",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/redisstore/close_test.go",
+      "path": "internal/redisstore/close_test.go",
+      "source_sha256": "ca997a5cf4d8315fe2cf07bb288266aebfc67f35ac0dbed34313d8a254cd1fee",
+      "export_sha256": "ca997a5cf4d8315fe2cf07bb288266aebfc67f35ac0dbed34313d8a254cd1fee",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/redisstore/redisstore.go",
+      "path": "internal/redisstore/redisstore.go",
+      "source_sha256": "641325b5548cb7feef037314dab17f469f4de51f8264b1534c258729f655ac43",
+      "export_sha256": "641325b5548cb7feef037314dab17f469f4de51f8264b1534c258729f655ac43",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/redisstore/redisstore_test.go",
+      "path": "internal/redisstore/redisstore_test.go",
+      "source_sha256": "c25588a43e2474ca3d001799164b28b03d5201e9adfe2fb8c1694d209a4cb4c2",
+      "export_sha256": "c25588a43e2474ca3d001799164b28b03d5201e9adfe2fb8c1694d209a4cb4c2",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/activity_test.go",
+      "path": "internal/scheduler/activity_test.go",
+      "source_sha256": "4a8105a41a9789fa2312c7450b813cc96b231fa0a3420570461303251a7c8b77",
+      "export_sha256": "4a8105a41a9789fa2312c7450b813cc96b231fa0a3420570461303251a7c8b77",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/gating_test.go",
+      "path": "internal/scheduler/gating_test.go",
+      "source_sha256": "00ba221becd46232abb79f604e6b6e3a70c96bc1b38684c8b6545a7be3b33a82",
+      "export_sha256": "cb88898d626ae45ae96d40a41aab3f1cba05b1f5dd7f8aaa884f145a29fee6cc",
+      "adjustment": "Test-only global endpoints and transport restricted to the corresponding loopback HTTP fixture"
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/parallel_test.go",
+      "path": "internal/scheduler/parallel_test.go",
+      "source_sha256": "87bea5795b55a815f381fe354471d1c54e3f0e8641891de92b037f98450b53eb",
+      "export_sha256": "87bea5795b55a815f381fe354471d1c54e3f0e8641891de92b037f98450b53eb",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/scheduler.go",
+      "path": "internal/scheduler/scheduler.go",
+      "source_sha256": "418b0ab7cce3eb5b1625a620ede506756c9626e931f120fa0659ce1a20843182",
+      "export_sha256": "418b0ab7cce3eb5b1625a620ede506756c9626e931f120fa0659ce1a20843182",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/scheduler_test.go",
+      "path": "internal/scheduler/scheduler_test.go",
+      "source_sha256": "35325de355a97dacedbf522983f4a2dadcc320e64105f6dd613938b395a17256",
+      "export_sha256": "35325de355a97dacedbf522983f4a2dadcc320e64105f6dd613938b395a17256",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/school.go",
+      "path": "internal/scheduler/school.go",
+      "source_sha256": "e63e5936443871024ad4bccbd82b612ef1e45e49952838398a9f9ad5b7b8178e",
+      "export_sha256": "e63e5936443871024ad4bccbd82b612ef1e45e49952838398a9f9ad5b7b8178e",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/school_test.go",
+      "path": "internal/scheduler/school_test.go",
+      "source_sha256": "3b3ff69bd8c390f6cc10cdf0fe6c9953f81c9fbbdddbcceeec02962eecb0593d",
+      "export_sha256": "3b3ff69bd8c390f6cc10cdf0fe6c9953f81c9fbbdddbcceeec02962eecb0593d",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/travel.go",
+      "path": "internal/scheduler/travel.go",
+      "source_sha256": "b1d7d3ce36d8459f42f947fdd20ccefa2f724c7c921791384494d44d58280edf",
+      "export_sha256": "b1d7d3ce36d8459f42f947fdd20ccefa2f724c7c921791384494d44d58280edf",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/scheduler/travel_test.go",
+      "path": "internal/scheduler/travel_test.go",
+      "source_sha256": "1daa14001cd5c70fe6dda9ec08c28c9775d5b4d90bee6658d028eb9b8f9ad30e",
+      "export_sha256": "1daa14001cd5c70fe6dda9ec08c28c9775d5b4d90bee6658d028eb9b8f9ad30e",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/catalog_metadata_test.go",
+      "path": "internal/server/catalog_metadata_test.go",
+      "source_sha256": "88e2bb65e9d05a63cf63bc76b172206a8782e578f9c7a30532d43a0e4a5866f0",
+      "export_sha256": "88e2bb65e9d05a63cf63bc76b172206a8782e578f9c7a30532d43a0e4a5866f0",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/claude_messages_test.go",
+      "path": "internal/server/claude_messages_test.go",
+      "source_sha256": "50c26d7e991fb308aa68bcf01808be023630e459570a27306598696be7fe1094",
+      "export_sha256": "50c26d7e991fb308aa68bcf01808be023630e459570a27306598696be7fe1094",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/degrade.go",
+      "path": "internal/server/degrade.go",
+      "source_sha256": "86a43aba006dd6b33705ea1e76891cc6e46edbaf6d5bbb6dd221e7d752f51edc",
+      "export_sha256": "86a43aba006dd6b33705ea1e76891cc6e46edbaf6d5bbb6dd221e7d752f51edc",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/degrade_test.go",
+      "path": "internal/server/degrade_test.go",
+      "source_sha256": "c81aef05e416215824c9f91ebaa751f2d67c7b10141db89b9724dbf9c240e9ca",
+      "export_sha256": "c81aef05e416215824c9f91ebaa751f2d67c7b10141db89b9724dbf9c240e9ca",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/gateway_auth.go",
+      "path": "internal/server/gateway_auth.go",
+      "source_sha256": "1dc9f0005517e7fedeeeee6afc5fc7bcd2300805d49dafb5819fa346d5bf9da4",
+      "export_sha256": "1dc9f0005517e7fedeeeee6afc5fc7bcd2300805d49dafb5819fa346d5bf9da4",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/gateway_auth_test.go",
+      "path": "internal/server/gateway_auth_test.go",
+      "source_sha256": "383300dac06b6f970f8e97229a8a51af1cd60faff1310fb6202116392a3ea6a3",
+      "export_sha256": "383300dac06b6f970f8e97229a8a51af1cd60faff1310fb6202116392a3ea6a3",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/global_e2e_test.go",
+      "path": "internal/server/global_e2e_test.go",
+      "source_sha256": "b580b86f485bc86375dc787785b8acced3fc88ac6e698ec6644f7637cc47b7d0",
+      "export_sha256": "b580b86f485bc86375dc787785b8acced3fc88ac6e698ec6644f7637cc47b7d0",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/handler.go",
+      "path": "internal/server/handler.go",
+      "source_sha256": "d3408a67d2923091c3fbc5124fe2c25568ee0fcfdce9d1e5353a05d2d5082c43",
+      "export_sha256": "d3408a67d2923091c3fbc5124fe2c25568ee0fcfdce9d1e5353a05d2d5082c43",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/handler_cost_test.go",
+      "path": "internal/server/handler_cost_test.go",
+      "source_sha256": "9f842b7b414674cd1db2f9074f58f2a903279c7385ee177ae1333fa1745dbd54",
+      "export_sha256": "9f842b7b414674cd1db2f9074f58f2a903279c7385ee177ae1333fa1745dbd54",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/handler_effort_models_test.go",
+      "path": "internal/server/handler_effort_models_test.go",
+      "source_sha256": "5ac58c3b5e4a6ffcbd26134ee08ace6853801583751fe863506b2a6c8757452c",
+      "export_sha256": "5ac58c3b5e4a6ffcbd26134ee08ace6853801583751fe863506b2a6c8757452c",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/handler_global_models_test.go",
+      "path": "internal/server/handler_global_models_test.go",
+      "source_sha256": "324d5e9e8682e20dd45316320b44bd681c80e4af2d07156eec9df981936b08b8",
+      "export_sha256": "324d5e9e8682e20dd45316320b44bd681c80e4af2d07156eec9df981936b08b8",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/handler_global_test.go",
+      "path": "internal/server/handler_global_test.go",
+      "source_sha256": "9e8543a5d59f71a22c5332e8aca7ef8fd83ec8f01a6675d104f98a01be44799c",
+      "export_sha256": "9e8543a5d59f71a22c5332e8aca7ef8fd83ec8f01a6675d104f98a01be44799c",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/handler_ids_test.go",
+      "path": "internal/server/handler_ids_test.go",
+      "source_sha256": "14147885f15f4e3d8c2d5065a6129f75984651ffdc5745c63b85609745263f37",
+      "export_sha256": "14147885f15f4e3d8c2d5065a6129f75984651ffdc5745c63b85609745263f37",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/handler_prefer_test.go",
+      "path": "internal/server/handler_prefer_test.go",
+      "source_sha256": "859031c774f280da0f97cd092b55be5bd8b30ecc48397fb01cd91375a9a688ec",
+      "export_sha256": "859031c774f280da0f97cd092b55be5bd8b30ecc48397fb01cd91375a9a688ec",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/handler_test.go",
+      "path": "internal/server/handler_test.go",
+      "source_sha256": "64af328f49d225d1368bf9e81bb8cc801cc3f562f46e101c4fdd5c9592838fc4",
+      "export_sha256": "64af328f49d225d1368bf9e81bb8cc801cc3f562f46e101c4fdd5c9592838fc4",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/logging.go",
+      "path": "internal/server/logging.go",
+      "source_sha256": "4c5bc761150be4a60af19898fbfe5aaa29a95cdf9e1416fe45177a102860f5a4",
+      "export_sha256": "4c5bc761150be4a60af19898fbfe5aaa29a95cdf9e1416fe45177a102860f5a4",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/logging_test.go",
+      "path": "internal/server/logging_test.go",
+      "source_sha256": "1e59a8d87bed11c86784d440c16dcb3d7243a5170ce866ccdec34c95ce123509",
+      "export_sha256": "1e59a8d87bed11c86784d440c16dcb3d7243a5170ce866ccdec34c95ce123509",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/protocol_20261025_test.go",
+      "path": "internal/server/protocol_20261025_test.go",
+      "source_sha256": "ce179b1122f94fc03ed832e437b0a0fc50baaddb7376b04c067babca333b32c5",
+      "export_sha256": "ce179b1122f94fc03ed832e437b0a0fc50baaddb7376b04c067babca333b32c5",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/resolve_model.go",
+      "path": "internal/server/resolve_model.go",
+      "source_sha256": "4fd5340d456f9b02e7f24ce3ac614a3b21eef53a786a337e4aed288a44b15bdf",
+      "export_sha256": "4fd5340d456f9b02e7f24ce3ac614a3b21eef53a786a337e4aed288a44b15bdf",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/resolve_model_test.go",
+      "path": "internal/server/resolve_model_test.go",
+      "source_sha256": "130aa9f5b14ab99d032e47c46c8964e2dd592635f68c0d5bedbbfe23e85764f3",
+      "export_sha256": "130aa9f5b14ab99d032e47c46c8964e2dd592635f68c0d5bedbbfe23e85764f3",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/server/stability_test.go",
+      "path": "internal/server/stability_test.go",
+      "source_sha256": "04bd8905430779c8540d6653285041c880e8d47ca2ca8dd887330e6990ce955f",
+      "export_sha256": "04bd8905430779c8540d6653285041c880e8d47ca2ca8dd887330e6990ce955f",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/session/export_test.go",
+      "path": "internal/session/export_test.go",
+      "source_sha256": "b7488ed34e2d65c5dcc96279cd81ede296ea1dedece117b9ae53dd0da8793d7d",
+      "export_sha256": "b7488ed34e2d65c5dcc96279cd81ede296ea1dedece117b9ae53dd0da8793d7d",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/session/ids.go",
+      "path": "internal/session/ids.go",
+      "source_sha256": "21e6aa077517610486fed6838215454b6ef318221bf32cb0c5bc68bea265215d",
+      "export_sha256": "21e6aa077517610486fed6838215454b6ef318221bf32cb0c5bc68bea265215d",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/session/ids_test.go",
+      "path": "internal/session/ids_test.go",
+      "source_sha256": "a458633a63843b43b58b32de254382d891998ebca05bb1722dedc8beeba1bcfc",
+      "export_sha256": "a458633a63843b43b58b32de254382d891998ebca05bb1722dedc8beeba1bcfc",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/session/session.go",
+      "path": "internal/session/session.go",
+      "source_sha256": "bbb1ae6a548df83d633d02c975a13a608dc4bf031666f10cbbd70e9a4f285cb3",
+      "export_sha256": "bbb1ae6a548df83d633d02c975a13a608dc4bf031666f10cbbd70e9a4f285cb3",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/session/session_model_test.go",
+      "path": "internal/session/session_model_test.go",
+      "source_sha256": "10177798bd5588abf82c9d60c08c5a0fd9182d8279b4a3e31d79fb62ecbed502",
+      "export_sha256": "10177798bd5588abf82c9d60c08c5a0fd9182d8279b4a3e31d79fb62ecbed502",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/session/session_test.go",
+      "path": "internal/session/session_test.go",
+      "source_sha256": "ea4fca624cce040712906f0cdd5bace37d7e6b8c79c48bf4aed87e64b3dfd3a4",
+      "export_sha256": "ea4fca624cce040712906f0cdd5bace37d7e6b8c79c48bf4aed87e64b3dfd3a4",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/attribution_test.go",
+      "path": "internal/upstream/attribution_test.go",
+      "source_sha256": "006e25ad5001f171c035e00adaa53a9dfd0fd9978782229044d6e54da8c651a0",
+      "export_sha256": "006e25ad5001f171c035e00adaa53a9dfd0fd9978782229044d6e54da8c651a0",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/backfill_test.go",
+      "path": "internal/upstream/backfill_test.go",
+      "source_sha256": "ba587b986deac99949e29ac18dd3f1c60c41198d20c7bf0eead67225730a47a7",
+      "export_sha256": "ba587b986deac99949e29ac18dd3f1c60c41198d20c7bf0eead67225730a47a7",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/cache_key.go",
+      "path": "internal/upstream/cache_key.go",
+      "source_sha256": "554de1b5316ba18865ef2c24a0021644d61529c36026f0cc2a624665740c4fb3",
+      "export_sha256": "554de1b5316ba18865ef2c24a0021644d61529c36026f0cc2a624665740c4fb3",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/cache_key_test.go",
+      "path": "internal/upstream/cache_key_test.go",
+      "source_sha256": "a2f010acff658837aceb690ef90b4662f877033bce943d2fa2f37304bfb12039",
+      "export_sha256": "a2f010acff658837aceb690ef90b4662f877033bce943d2fa2f37304bfb12039",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/catalog_metadata_test.go",
+      "path": "internal/upstream/catalog_metadata_test.go",
+      "source_sha256": "d19a74e4b5d4ef24804d0b6cc47570f4901654633420a8b9ce705dd1855a1015",
+      "export_sha256": "d19a74e4b5d4ef24804d0b6cc47570f4901654633420a8b9ce705dd1855a1015",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/client.go",
+      "path": "internal/upstream/client.go",
+      "source_sha256": "9db9873a2a4c3a9bb8ef7236f5941d5fd8e00548fd753e901e39382d4537ebaf",
+      "export_sha256": "9db9873a2a4c3a9bb8ef7236f5941d5fd8e00548fd753e901e39382d4537ebaf",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/client_test.go",
+      "path": "internal/upstream/client_test.go",
+      "source_sha256": "d2b27b258f9c97ee5a5ad5bf562b57899a4a8e200b6d2287652e63650b75c774",
+      "export_sha256": "d2b27b258f9c97ee5a5ad5bf562b57899a4a8e200b6d2287652e63650b75c774",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/compensation.go",
+      "path": "internal/upstream/compensation.go",
+      "source_sha256": "93354f0d1d1f437bc1a73973a0606717e220349dfee47f6239d1d22f635da438",
+      "export_sha256": "93354f0d1d1f437bc1a73973a0606717e220349dfee47f6239d1d22f635da438",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/compensation_test.go",
+      "path": "internal/upstream/compensation_test.go",
+      "source_sha256": "ab3ae0633b8f9bfdf76466acb679629afff5e593e7d3e576856b5bd0a9fe1392",
+      "export_sha256": "ab3ae0633b8f9bfdf76466acb679629afff5e593e7d3e576856b5bd0a9fe1392",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/ctx_test.go",
+      "path": "internal/upstream/ctx_test.go",
+      "source_sha256": "91f87c2f85a0e2a0063e07cb240610c8bb5ff86171dff98a8c22cff082501da7",
+      "export_sha256": "91f87c2f85a0e2a0063e07cb240610c8bb5ff86171dff98a8c22cff082501da7",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/device_token.go",
+      "path": "internal/upstream/device_token.go",
+      "source_sha256": "dbfd986bf0ad01bf000f3db59acc600659668ea3d2aa8288b60f5a99443b405d",
+      "export_sha256": "dbfd986bf0ad01bf000f3db59acc600659668ea3d2aa8288b60f5a99443b405d",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/device_token_test.go",
+      "path": "internal/upstream/device_token_test.go",
+      "source_sha256": "0a7b6f76e9f240f1494f4d6cacb415a66c92e85800999842b89a001474ca8c9f",
+      "export_sha256": "0a7b6f76e9f240f1494f4d6cacb415a66c92e85800999842b89a001474ca8c9f",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/directory_v3.go",
+      "path": "internal/upstream/directory_v3.go",
+      "source_sha256": "67de056fc00ad6ee7244874aec9f5ab730a58eb34aea19b62e242a987ccb48da",
+      "export_sha256": "67de056fc00ad6ee7244874aec9f5ab730a58eb34aea19b62e242a987ccb48da",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/directory_v3_test.go",
+      "path": "internal/upstream/directory_v3_test.go",
+      "source_sha256": "61d2519a091c5113cae859c7094710accb2ce9ad8f4e30d14f06a1e6a86c76e5",
+      "export_sha256": "61d2519a091c5113cae859c7094710accb2ce9ad8f4e30d14f06a1e6a86c76e5",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/effort_catalog.go",
+      "path": "internal/upstream/effort_catalog.go",
+      "source_sha256": "a93f17193d85d71f394afae4b858f43bf73e0f2f45f8173484975ab631c9d429",
+      "export_sha256": "a93f17193d85d71f394afae4b858f43bf73e0f2f45f8173484975ab631c9d429",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/effort_catalog_test.go",
+      "path": "internal/upstream/effort_catalog_test.go",
+      "source_sha256": "0825235cec23c2c3ef924bf442511d70203ebe4bf2dc77b5c3c81129013cad08",
+      "export_sha256": "0825235cec23c2c3ef924bf442511d70203ebe4bf2dc77b5c3c81129013cad08",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/expiring_test.go",
+      "path": "internal/upstream/expiring_test.go",
+      "source_sha256": "ec985dc5255aabed29595aee14c012e19ce550eb81acab95712967992c08d2b8",
+      "export_sha256": "ec985dc5255aabed29595aee14c012e19ce550eb81acab95712967992c08d2b8",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/gateway_auth.go",
+      "path": "internal/upstream/gateway_auth.go",
+      "source_sha256": "802b72004252e8e7b49bb2c932b8915b843f5c3f34636c0094e75f7dc0e41eba",
+      "export_sha256": "802b72004252e8e7b49bb2c932b8915b843f5c3f34636c0094e75f7dc0e41eba",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/gateway_auth_test.go",
+      "path": "internal/upstream/gateway_auth_test.go",
+      "source_sha256": "fab05f78e3c7dc0c037b4f55c907d0fa88d5702d1989f2c2c7a7242b4c84026a",
+      "export_sha256": "fab05f78e3c7dc0c037b4f55c907d0fa88d5702d1989f2c2c7a7242b4c84026a",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/global_e2e_test.go",
+      "path": "internal/upstream/global_e2e_test.go",
+      "source_sha256": "01f0e60e4c29379e5d5708f5b7a7c81f96c7614d4af615af6a9f9638d453bf64",
+      "export_sha256": "01f0e60e4c29379e5d5708f5b7a7c81f96c7614d4af615af6a9f9638d453bf64",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/global_effort_test.go",
+      "path": "internal/upstream/global_effort_test.go",
+      "source_sha256": "b345cb7f20857492524853de8f07230158d16d39cb94d78b241edd6cfb923124",
+      "export_sha256": "b345cb7f20857492524853de8f07230158d16d39cb94d78b241edd6cfb923124",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/global_models.go",
+      "path": "internal/upstream/global_models.go",
+      "source_sha256": "74d187b32f9f5a6a1e3cd9e2fa7ac05eac6ccd234d7b9a2212d007b5d601d98f",
+      "export_sha256": "74d187b32f9f5a6a1e3cd9e2fa7ac05eac6ccd234d7b9a2212d007b5d601d98f",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/global_models_test.go",
+      "path": "internal/upstream/global_models_test.go",
+      "source_sha256": "f73e42cdd99bcc8511ef6232c235391344b0a7b49bf2905339b9418ae926a6c1",
+      "export_sha256": "f73e42cdd99bcc8511ef6232c235391344b0a7b49bf2905339b9418ae926a6c1",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/headers.go",
+      "path": "internal/upstream/headers.go",
+      "source_sha256": "8b7f507370b0f70efabfbb35f309ee8afe8d4e074361e016ef7c52d7ec239f82",
+      "export_sha256": "8b7f507370b0f70efabfbb35f309ee8afe8d4e074361e016ef7c52d7ec239f82",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/headers_global_test.go",
+      "path": "internal/upstream/headers_global_test.go",
+      "source_sha256": "fc30419fa414f1c1a27a1874028a2882c20060382e4b96fcfb3cba5850e9a5ff",
+      "export_sha256": "fc30419fa414f1c1a27a1874028a2882c20060382e4b96fcfb3cba5850e9a5ff",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/headers_ids_test.go",
+      "path": "internal/upstream/headers_ids_test.go",
+      "source_sha256": "4468258f3f873b76aa2e0a21e810a6b39bf317514f81f9e30ed6793c119c8d33",
+      "export_sha256": "4468258f3f873b76aa2e0a21e810a6b39bf317514f81f9e30ed6793c119c8d33",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/headers_p0_test.go",
+      "path": "internal/upstream/headers_p0_test.go",
+      "source_sha256": "92e4677165cd7a63f8a6adb50c04b2acdb11c20fe4b1e9572b3973ad5fb7dd86",
+      "export_sha256": "92e4677165cd7a63f8a6adb50c04b2acdb11c20fe4b1e9572b3973ad5fb7dd86",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/idle.go",
+      "path": "internal/upstream/idle.go",
+      "source_sha256": "bbba7d5634006e0712b197e9dc6772ee2937e2c8a3a4715938b0da1dc600e467",
+      "export_sha256": "bbba7d5634006e0712b197e9dc6772ee2937e2c8a3a4715938b0da1dc600e467",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/idle_test.go",
+      "path": "internal/upstream/idle_test.go",
+      "source_sha256": "c6fe073de6b8a6cf97c1aad4d19d3a723036dae8c3cb7c2d0824a20c1c3b34af",
+      "export_sha256": "c6fe073de6b8a6cf97c1aad4d19d3a723036dae8c3cb7c2d0824a20c1c3b34af",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/machine_session_id_test.go",
+      "path": "internal/upstream/machine_session_id_test.go",
+      "source_sha256": "85790bbced7a7aea7b9beed1301721a37814ebd9f0a56e786f49de26ee0a3195",
+      "export_sha256": "85790bbced7a7aea7b9beed1301721a37814ebd9f0a56e786f49de26ee0a3195",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/models_fields_test.go",
+      "path": "internal/upstream/models_fields_test.go",
+      "source_sha256": "1cf67f3eb3c33870da74c04b49c67574dfb875701dd5e155c701d02e50cad63d",
+      "export_sha256": "1cf67f3eb3c33870da74c04b49c67574dfb875701dd5e155c701d02e50cad63d",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/models_path_test.go",
+      "path": "internal/upstream/models_path_test.go",
+      "source_sha256": "f3b90c3d7b418853764488f213466bfa37c02c256732a3c20142b04b7d78ee67",
+      "export_sha256": "f3b90c3d7b418853764488f213466bfa37c02c256732a3c20142b04b7d78ee67",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/p0_read_error_test.go",
+      "path": "internal/upstream/p0_read_error_test.go",
+      "source_sha256": "1e1d6b5285a8823ce1146b7a7e2c2ab11b0bf13114ba4cf91431ffdbbd1fadd8",
+      "export_sha256": "1e1d6b5285a8823ce1146b7a7e2c2ab11b0bf13114ba4cf91431ffdbbd1fadd8",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/payload.go",
+      "path": "internal/upstream/payload.go",
+      "source_sha256": "bd78790eb29f6734911bfe9fd8ba2a8c163d194bc8519f74a130a4f76851df3a",
+      "export_sha256": "bd78790eb29f6734911bfe9fd8ba2a8c163d194bc8519f74a130a4f76851df3a",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/payload_test.go",
+      "path": "internal/upstream/payload_test.go",
+      "source_sha256": "34466e13a6f00cf9c9847b39f524c451d786df1191a98ee77768fa31460cae66",
+      "export_sha256": "34466e13a6f00cf9c9847b39f524c451d786df1191a98ee77768fa31460cae66",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/protocol_20261025_test.go",
+      "path": "internal/upstream/protocol_20261025_test.go",
+      "source_sha256": "2b8da6c882e75be69845471eb113d2bb3d0ec18dd25a89b41fbd26e1b65d73a8",
+      "export_sha256": "2b8da6c882e75be69845471eb113d2bb3d0ec18dd25a89b41fbd26e1b65d73a8",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/realm_test.go",
+      "path": "internal/upstream/realm_test.go",
+      "source_sha256": "fe819b503bcc558c6689b258102e445b54a014484bf1d57b14668258fd37d262",
+      "export_sha256": "fe819b503bcc558c6689b258102e445b54a014484bf1d57b14668258fd37d262",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/report.go",
+      "path": "internal/upstream/report.go",
+      "source_sha256": "e916f086375bb30bd0fb690ef526d373bf77103a974ea257a07c61ac3385f9f1",
+      "export_sha256": "e916f086375bb30bd0fb690ef526d373bf77103a974ea257a07c61ac3385f9f1",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/report_test.go",
+      "path": "internal/upstream/report_test.go",
+      "source_sha256": "375300b1390b339e3befafdafa5cc0090aa29e601cdfb2ae6376fcf3b08bb606",
+      "export_sha256": "375300b1390b339e3befafdafa5cc0090aa29e601cdfb2ae6376fcf3b08bb606",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/sanitize.go",
+      "path": "internal/upstream/sanitize.go",
+      "source_sha256": "99e658f5481668edf8a4c82ea69fc009a0159449a668c10f890e21f5ce03ae5b",
+      "export_sha256": "99e658f5481668edf8a4c82ea69fc009a0159449a668c10f890e21f5ce03ae5b",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/sanitize_test.go",
+      "path": "internal/upstream/sanitize_test.go",
+      "source_sha256": "92a5f4e260523d9db799013e3c0be587d859b726f4cc62fe874647ecca71af55",
+      "export_sha256": "92a5f4e260523d9db799013e3c0be587d859b726f4cc62fe874647ecca71af55",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/sse.go",
+      "path": "internal/upstream/sse.go",
+      "source_sha256": "2cf044388e1869abc03c717677609fb7dd1aac5e9b728838ef7257d438570013",
+      "export_sha256": "2cf044388e1869abc03c717677609fb7dd1aac5e9b728838ef7257d438570013",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/sse_test.go",
+      "path": "internal/upstream/sse_test.go",
+      "source_sha256": "e2e8467c8d4009aaba27111cb8a92b5cff5a27049c3a5b8b3045a19b5d0580e3",
+      "export_sha256": "e2e8467c8d4009aaba27111cb8a92b5cff5a27049c3a5b8b3045a19b5d0580e3",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/stability_test.go",
+      "path": "internal/upstream/stability_test.go",
+      "source_sha256": "6d35c20b6921cae871002cb29aa73ccb2789e4869653057241b0bc7a45426269",
+      "export_sha256": "6d35c20b6921cae871002cb29aa73ccb2789e4869653057241b0bc7a45426269",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/streak_test.go",
+      "path": "internal/upstream/streak_test.go",
+      "source_sha256": "4bbaf1fe6cea21a3be5a39a598dd4cc1acf8b70217bcafda30b4c0ba76f83aea",
+      "export_sha256": "4bbaf1fe6cea21a3be5a39a598dd4cc1acf8b70217bcafda30b4c0ba76f83aea",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/thinking.go",
+      "path": "internal/upstream/thinking.go",
+      "source_sha256": "1b8b26bcb97eb947daffd2392e2f43674601fc277898fa94775b9c7afa857c0e",
+      "export_sha256": "1b8b26bcb97eb947daffd2392e2f43674601fc277898fa94775b9c7afa857c0e",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/thinking_default_effort_test.go",
+      "path": "internal/upstream/thinking_default_effort_test.go",
+      "source_sha256": "053fd41aef619d224ccbad3dcc92f49be0a2673db8e79db7f44f91a632db5ff9",
+      "export_sha256": "053fd41aef619d224ccbad3dcc92f49be0a2673db8e79db7f44f91a632db5ff9",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/thinking_off_test.go",
+      "path": "internal/upstream/thinking_off_test.go",
+      "source_sha256": "f84211ca0b19a9c30c5a2d04fd51a8c28988bb1f5544f35692b718d273fb8179",
+      "export_sha256": "f84211ca0b19a9c30c5a2d04fd51a8c28988bb1f5544f35692b718d273fb8179",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/thinking_test.go",
+      "path": "internal/upstream/thinking_test.go",
+      "source_sha256": "a6ae8fe2a78c13e90d1a71295974ac60c20358f69faa0d61f74f1f4b1778c746",
+      "export_sha256": "a6ae8fe2a78c13e90d1a71295974ac60c20358f69faa0d61f74f1f4b1778c746",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/tool_pairing.go",
+      "path": "internal/upstream/tool_pairing.go",
+      "source_sha256": "675c5d5191dff007f978515cc172a97018091d6fe4b1bb44943b22a3849c8f0a",
+      "export_sha256": "675c5d5191dff007f978515cc172a97018091d6fe4b1bb44943b22a3849c8f0a",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/tool_pairing_test.go",
+      "path": "internal/upstream/tool_pairing_test.go",
+      "source_sha256": "9cdb621467fef3a63641097794990348b4b6bd8e7c7668e1e6c3bfd7f07f7508",
+      "export_sha256": "9cdb621467fef3a63641097794990348b4b6bd8e7c7668e1e6c3bfd7f07f7508",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/travel.go",
+      "path": "internal/upstream/travel.go",
+      "source_sha256": "848b9c606a9fe1cd10b0f0cba7bfd1a19f2967bb016faa7d02e7f79d6ee506a3",
+      "export_sha256": "848b9c606a9fe1cd10b0f0cba7bfd1a19f2967bb016faa7d02e7f79d6ee506a3",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/travel_test.go",
+      "path": "internal/upstream/travel_test.go",
+      "source_sha256": "8ab096c3fdf0ce6a6153cc5f83138056c384673d287fcab938c74c058a118f72",
+      "export_sha256": "8ab096c3fdf0ce6a6153cc5f83138056c384673d287fcab938c74c058a118f72",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/trial.go",
+      "path": "internal/upstream/trial.go",
+      "source_sha256": "26c19046cbe36791cd83c3c774f19fd5cb8e48c7e53134983230941b91cdd4d6",
+      "export_sha256": "26c19046cbe36791cd83c3c774f19fd5cb8e48c7e53134983230941b91cdd4d6",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/trial_test.go",
+      "path": "internal/upstream/trial_test.go",
+      "source_sha256": "d9bbd31123f1e865337480dd04f7c58ea2317208f782e7c763bc6c7f970f37d8",
+      "export_sha256": "d9bbd31123f1e865337480dd04f7c58ea2317208f782e7c763bc6c7f970f37d8",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/truncation.go",
+      "path": "internal/upstream/truncation.go",
+      "source_sha256": "bb98c8d5c7b3fe9670751ea5842a80e35021a41c19b9f758200e81b5b0494300",
+      "export_sha256": "bb98c8d5c7b3fe9670751ea5842a80e35021a41c19b9f758200e81b5b0494300",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/truncation_test.go",
+      "path": "internal/upstream/truncation_test.go",
+      "source_sha256": "33d0f08f88d33780cde635724a9fcefd30b299fa3756ca18ba8ed54d23344e63",
+      "export_sha256": "33d0f08f88d33780cde635724a9fcefd30b299fa3756ca18ba8ed54d23344e63",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/src/internal/upstream/useragent_test.go",
+      "path": "internal/upstream/useragent_test.go",
+      "source_sha256": "fd51b5617cabe4d5834ca96405f7bc6404df0393f0c998a29a3d9b573d758daa",
+      "export_sha256": "fd51b5617cabe4d5834ca96405f7bc6404df0393f0c998a29a3d9b573d758daa",
+      "adjustment": null
+    },
+    {
+      "source": "services/anthropiccompat/go.mod",
+      "path": "lib/anthropiccompat/go.mod",
+      "source_sha256": "c03ce6e6e9172e22ad1eb893981d4f4ec8d5cbf028d87f0072c73fd4f81ba99e",
+      "export_sha256": "c03ce6e6e9172e22ad1eb893981d4f4ec8d5cbf028d87f0072c73fd4f81ba99e",
+      "adjustment": null
+    },
+    {
+      "source": "services/anthropiccompat/handler.go",
+      "path": "lib/anthropiccompat/handler.go",
+      "source_sha256": "46b5066d6eadfd47d14cfa9e4b0398176e1b53ceb3ffe5d947ccbcec1f1de384",
+      "export_sha256": "46b5066d6eadfd47d14cfa9e4b0398176e1b53ceb3ffe5d947ccbcec1f1de384",
+      "adjustment": null
+    },
+    {
+      "source": "services/anthropiccompat/handler_test.go",
+      "path": "lib/anthropiccompat/handler_test.go",
+      "source_sha256": "0b1c98dbe706341e1f61cc8003ede3687a423660ed93ca0815b3df8da8cdd16b",
+      "export_sha256": "0b1c98dbe706341e1f61cc8003ede3687a423660ed93ca0815b3df8da8cdd16b",
+      "adjustment": null
+    },
+    {
+      "source": "services/anthropiccompat/request.go",
+      "path": "lib/anthropiccompat/request.go",
+      "source_sha256": "a420c739d41377a036056a1f4cf1529114f4c5570bf6dc427aef1bf56527fa97",
+      "export_sha256": "a420c739d41377a036056a1f4cf1529114f4c5570bf6dc427aef1bf56527fa97",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/scripts/global_region.py",
+      "path": "scripts/global_region.py",
+      "source_sha256": "810df1227a05a7686616b38005230066ef5e02a9fed967460b81e0de4f7e43af",
+      "export_sha256": "810df1227a05a7686616b38005230066ef5e02a9fed967460b81e0de4f7e43af",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/scripts/school_open_day_2026.py",
+      "path": "scripts/school_open_day_2026.py",
+      "source_sha256": "f31cf25b635e74028c411f15b4e5c187b8f4eceeabde13516a82e772ea67f022",
+      "export_sha256": "f31cf25b635e74028c411f15b4e5c187b8f4eceeabde13516a82e772ea67f022",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/scripts/school_open_day_cron.sh",
+      "path": "scripts/school_open_day_cron.sh",
+      "source_sha256": "f763089d60f422f203083062f4e5fafbef3a2a7835a8a3d429667d83c858fee8",
+      "export_sha256": "f763089d60f422f203083062f4e5fafbef3a2a7835a8a3d429667d83c858fee8",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/scripts/task_common.py",
+      "path": "scripts/task_common.py",
+      "source_sha256": "ec22d150c6b591bdba565547ce5994a18a312057c1f1e356311d006cd6a0f7df",
+      "export_sha256": "ec22d150c6b591bdba565547ce5994a18a312057c1f1e356311d006cd6a0f7df",
+      "adjustment": null
+    },
+    {
+      "source": "services/workbuddy/scripts/task_runner.py",
+      "path": "scripts/task_runner.py",
+      "source_sha256": "dacb90ebb9c73525101aa9a4be8b680d52b3b0902278929928558cdbe8207a8d",
+      "export_sha256": "dacb90ebb9c73525101aa9a4be8b680d52b3b0902278929928558cdbe8207a8d",
+      "adjustment": null
+    }
+  ],
+  "verification": {
+    "independent_clone_build": "See docs/VALIDATION.md"
+  }
+}
